@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 class EditData extends StatefulWidget {
   final String score;
   final String name;
-  final int genre;
+  final String genre;
   final DocumentSnapshot currentDoc;
 
   const EditData({Key key, this.score, this.name, this.genre,this.currentDoc}) : super(key: key);
@@ -22,9 +22,6 @@ class _EditDataState extends State<EditData> {
   String radioValue;
 
   void pilihanRadion(int type){
-    setState(() {
-      _currentIndex =widget.genre;
-    });
     setState(() {
       _currentIndex = type;
       switch(_currentIndex){
@@ -46,7 +43,7 @@ class _EditDataState extends State<EditData> {
     super.initState();
     nameCtrl.text = widget.name;
     scoreCtrl.text = widget.score;
-    _currentIndex = widget.genre;
+//    _currentIndex = widget.genre;
   }
   @override
   Widget build(BuildContext context) {

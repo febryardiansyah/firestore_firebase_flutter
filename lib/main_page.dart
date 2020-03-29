@@ -57,6 +57,20 @@ class _MainPageState extends State<MainPage> {
                             .map((DocumentSnapshot documant) {
                           return Dismissible(
                             key: UniqueKey(),
+                            direction: DismissDirection.startToEnd,
+                            confirmDismiss: (direction)async{
+                              final bool res = await showDialog(context: context,builder: (context){
+                                return AlertDialog(
+                                  title: Text('Konfirmasi'),
+                                  content: Text('Kau Yakin ?'),
+                                  actions: <Widget>[
+                                    FlatButton(child: Text('Hapus'),onPressed: (){Navigator.of(context).pop(true);},),
+                                    FlatButton(child: Text('Batal'),onPressed: (){Navigator.of(context).pop(false);},)
+                                  ],
+                                );
+                              });
+                              return res;
+                            },
                             onDismissed: (value){
                               DatabaseServices.deleteData(documant);
                             },
