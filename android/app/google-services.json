@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "216637392661",
+    "firebase_url": "https://pikobar-2e76f.firebaseio.com",
+    "project_id": "pikobar-2e76f",
+    "storage_bucket": "pikobar-2e76f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216637392661:android:c7affe12a9c218411d8b1c",
+        "android_client_info": {
+          "package_name": "com.febryardiansyah.firestore_firebase_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216637392661-diijkho7qlf2ltkr4fefgrpr0ao9h55v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc1hgX0ftRBf_Y3Z1-ULEaHlZ3HKdiMwo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216637392661-diijkho7qlf2ltkr4fefgrpr0ao9h55v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216637392661:android:78f46e7f5fcc86e01d8b1c",
+        "android_client_info": {
+          "package_name": "id.go.jabarprov.pikobar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216637392661-diijkho7qlf2ltkr4fefgrpr0ao9h55v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc1hgX0ftRBf_Y3Z1-ULEaHlZ3HKdiMwo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216637392661-diijkho7qlf2ltkr4fefgrpr0ao9h55v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
